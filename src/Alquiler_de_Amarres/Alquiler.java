@@ -26,7 +26,7 @@ public class Alquiler {
         this.nombre = nombre;
         this.eslora = eslora;
         this.añoFabricacion = añoFrabricacion;
-        this.amarre[]=posicionAmarre;
+        this.amarre[posicionAmarre()]=1;
     }
 
     public int posicionAmarre() {
@@ -34,10 +34,11 @@ public class Alquiler {
         while (i >= total) {
             while (amarre[i] == 0) {
                 amarre[i] = 1;
+                return i;
             }
             i++;
         }
-        return i;
+        
     }
 
     private int pocicioAmarre() {
