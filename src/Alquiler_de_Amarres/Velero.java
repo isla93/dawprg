@@ -3,9 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Alquiler_de_Amarres;
+package Alquiler_de_Amarres ;
 
-public class Barcos {
-    double eslora;
+/**
+ *
+ * @author Vespertino
+ */
+public class Velero extends Barcos {
     
 }

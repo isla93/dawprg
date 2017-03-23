@@ -9,6 +9,6 @@ package Alquiler_de_Amarres;
  *
  * @author Vespertino
  */
-public class Puerto {
+public class DeportivoAMortor extends Barcos{
     
 }

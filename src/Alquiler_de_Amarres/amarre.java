@@ -5,7 +5,10 @@
  */
 package Alquiler_de_Amarres;
 
-public class Barcos {
-    double eslora;
+/**
+ *
+ * @author Vespertino
+ */
+class amarre {
     
 }
