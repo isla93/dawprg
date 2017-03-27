@@ -16,7 +16,7 @@ public class Alquiler {
     private String DNI, nombre;
     private double eslora;
     private int añoFrabricacion;
-    private int[] amarre= new int [];
+    private int[] amarre = new int [];
     private int total = 5;
     private int añoFabricacion;
 
@@ -26,7 +26,7 @@ public class Alquiler {
         this.nombre = nombre;
         this.eslora = eslora;
         this.añoFabricacion = añoFrabricacion;
-        this.amarre[posicionAmarre()]=1;
+        this.amarre[posicionAmarre()] = 1;
     }
 
     public int posicionAmarre() {
@@ -38,7 +38,7 @@ public class Alquiler {
             }
             i++;
         }
-        
+        return i;
     }
 
     private int pocicioAmarre() {
