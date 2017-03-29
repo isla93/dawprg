@@ -8,8 +8,10 @@ package Recursividad;
 public class Run {
 
     public static void main(String[] args) {
-       
-        ejer2.factorial("87923423");
+
+        ejer4.ejer1(19);
+        System.out.println("");
+        ejer4.ejer2(19);
     }
-    
+
 }

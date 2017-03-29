@@ -8,13 +8,14 @@ public class ejer2 {
     public static void factorial(String num) {
         int ultimaPos;
         int x=0;
+        int z;
         if (num.length() == 1) {
             System.out.print(""+num);
         } else {
             ultimaPos = num.length() - 1;
-            x=x+num.charAt(ultimaPos);
-            System.out.print("" + num.charAt(ultimaPos));
-            x=x+num.charAt(ultimaPos);
+            z=z+num.charAt(ultimaPos);
+            System.out.print(x);
+            x=num.charAt(ultimaPos);
             factorial(num.substring(0, ultimaPos));
         }
         
