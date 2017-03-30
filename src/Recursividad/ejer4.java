@@ -20,6 +20,7 @@ public class ejer4 {
                 z++;
             }
         }
+        Z--;
         while (z >= 0) {
             System.out.print(binario[z]);
             z--;
