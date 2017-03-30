@@ -20,26 +20,25 @@ public class ejer4 {
                 z++;
             }
         }
-        Z--;
+        z--;
         while (z >= 0) {
             System.out.print(binario[z]);
             z--;
         }
     }
-public static void ejer2(int num){
-        StringBuilder sb= new StringBuilder();
-        if(num<2){
+
+    public static void ejer2(int num) {
+        StringBuilder sb = new StringBuilder();
+        if (num < 2) {
             System.out.print(num);
-        }else{
-            if(num%2!=0){
-                ejer2(num/2);
-                sb.append("1");
-            }else{
-                ejer2(num/2);
-                sb.append("0");
-            }
+        } else if (num % 2 != 0) {
+            ejer2(num / 2);
+            sb.append("1");
+        } else {
+            ejer2(num / 2);
+            sb.append("0");
         }
         System.out.print(sb);
-        
+
     }
 }
